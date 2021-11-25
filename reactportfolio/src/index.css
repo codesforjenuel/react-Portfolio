@@ -1,4 +1,366 @@
-body {
-background: gray;
-};
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/city2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    
+    animation:nav-load 1200ms ease-in;
+}
+@keyframes nav-load {
+    0% {
+transform: translateY(-100%);
+    }
+
+    100%{
+transform: translateY(0);
+    }
+}
+
+
+.header {
+    background:none;
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    height: 100%;
+    animation:header-load 1200ms ease-in;
+}
+
+
+.banner {
+    border-bottom: 5px solid black;
+  border-top: 5px solid black;
+   background: white;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cube{
+    background: white;
+    animation:cube-load 1200ms ease-in;
+}
+
+@keyframes cube-load {
+    0% {
+transform: translateX(-100%);
+    }
+
+    100%{
+transform: translateX(0);
+    }
+}
+
+
+.Name-Banner {
+    margin-bottom: -30px;
+    animation: banner-name 1200ms ease-in;
+}
+
+@keyframes banner-name {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.about {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: none;
+}
+
+.aboutMe {
+    color: blanchedalmond;
+    background-image: url(./images/matte.jpg);
+    margin: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 15px solid black;
+    border-style:double;
+   
+}
+
+.about-shadow {
+    right: 20px;
+   width: 100%;
+   margin-top: 40px;
+  box-shadow: 0px 0px 70px 30px black;
+  border-radius: 100px;
+
+}
+.portrait {
+
+    margin: 50px;
+    border: 5px solid black;
+    box-shadow: 4px 4px 30px 10px black;
+
+}
+nav {
+  
+
+    background: black;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+li {
+    color: white;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.skillsDiv{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 3px 4px black;
+}
+
+.skillsname {
+font-size: 80px;
+
+}
+
+.logobox {
+    margin-top: 50px;
+    height:200px;
+    background-image: url(./images/matte.jpg);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+.htmlimg {
+    height:100px;
+     width:120px;
+}
+.htmlimg:hover {
+width:180px ;
+height:160px ;
+transition: 300ms;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px white);
+    
+}
+.cssimg {
+    height:100px;
+     width:85px;
+}
+.cssimg:hover {
+width:125px ;
+height:160px ;
+transition: 300ms;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px white);
+}
+.jsimg {
+    height:100px;
+     width:180px;
+}
+.jsimg:hover {
+width:250px ;
+height:150px ;
+transition: 300ms;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px white);
+}
+.nodeimg {
+    height:90px;
+     width:160px;
+}
+.nodeimg:hover {
+width:200px ;
+height:130px ;
+transition: 300ms;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px white);
+}
+.mysqlimg {
+    height:100px;
+     width:200px;
+}
+.mysqlimg:hover {
+width:250px ;
+height:150px ;
+transition: 300ms;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px white);
+}
+.reactimg {
+    height:90px;
+     width:290px;
+}
+.reactimg:hover {
+width:340px ;
+height: 120px ;
+transition: 300ms;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px white);
+}
+
+
+.cssimg {
+  margin-left: 40px;
+}
+
+.workstitle {
+    font-size: 60px;
+}
+
+.worksbox {
+    margin-top: 300px;
+    font-size: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 3px 4px black;
+}
+
+.carouselbox {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    margin:3% 0% 0% 0%;
+}
+
+.carousel {
+    
+    text-align: center;
+    width: 700px;
+    height: 500px;
+}
+
+footer {
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 3px 4px black;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.submitBox {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.fullName {
+    background: none;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    
+}
+
+.fullName:focus {
+    border: 4px solid black;
+box-shadow: 0px 0px 10px 3px black ;
+border-style: double;
+transition: 300ms;
+}
+.emailbox {
+    background: none;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+.emailbox:focus {
+    border: 4px solid black;
+box-shadow: 0px 0px 10px 3px black ;
+transition: 300ms;
+border-style: double;
+}
+.textbox {
+    background: none;
+display: flex;
+flex-wrap: wrap;
+overflow: hidden;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.textbox:focus {
+    border: 4px solid black;
+box-shadow: 0px 0px 10px 3px black ;
+transition: 300ms;
+border-style: double;
+}
+
+.linksbox {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    margin-top: 20px;
+
+
+}
+
+.linkedinimg:hover, .instagramimg:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px white);
+    filter: drop-shadow(0px 5px 5px white);
+    transition: 300ms;
+}
+.githubimg:hover, .twitterimg:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(0px 5px 5px black);
+    transition: 300ms;
+}

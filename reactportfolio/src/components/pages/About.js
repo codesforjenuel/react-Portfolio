@@ -1,10 +1,10 @@
 import React from 'react'
-
+import portrait from '../../images/me.jpg'
 export default function About() {
     return (
         <div className="about">
         <div>
-          <img src={portrait} className="portrait" alt="logo" height='390px' width='350px' />
+          <img src={portrait} className="portrait" alt="logo" height='390px' width='332px' />
         </div>
         <div>
           <p className='aboutMe'>
