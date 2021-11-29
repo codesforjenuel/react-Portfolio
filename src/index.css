@@ -84,7 +84,7 @@ transform: translateX(0);
 
 .about {
     margin-top: 35px;
-    margin-bottom: 20px;
+    margin-bottom: -15px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -95,7 +95,7 @@ transform: translateX(0);
     color: blanchedalmond;
     background-image: url(./images/matte.jpg);
     margin: 50px;
-    font-size: 30px;
+    font-size: 19px;
     border-radius: 10px;
     border: 15px solid black;
     border-style:double;
@@ -268,7 +268,7 @@ transition: 300ms;
     
     text-align: center;
     width: 700px;
-    height: 500px;
+    height: 400px;
 }
 
 footer {
@@ -354,12 +354,12 @@ border-style: double;
 
 }
 
-.linkedinimg:hover, .instagramimg:hover{
+.instagramimg:hover, .youtubeimg:hover{
     -webkit-filter: drop-shadow(5px 5px 5px white);
     filter: drop-shadow(0px 5px 5px white);
     transition: 300ms;
 }
-.githubimg:hover, .twitterimg:hover{
+.linkedinimg:hover, .githubimg:hover, .twitterimg:hover{
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(0px 5px 5px black);
     transition: 300ms;
