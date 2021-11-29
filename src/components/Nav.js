@@ -7,7 +7,7 @@ export default function Nav() {
            <nav>
            <ul className='unorderedList'>
             <li>
-                <Link to="/react-Portfolio" style={{ textDecoration: 'none' }}>
+                <Link to="/" style={{ textDecoration: 'none' }}>
                     Home
                 </Link>
             </li>
